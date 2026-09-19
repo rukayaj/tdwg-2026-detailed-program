@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Unofficial detailed program and talk abstracts for the TDWG 2026 conference in Oslo.">
+  <title>TDWG 2026 detailed program</title>
+  <link rel="stylesheet" href="assets/program.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <p class="site-eyebrow">TDWG 2026 · Oslo · 21–25 September</p>
+      <h1>Detailed program</h1>
+      <p class="site-tagline">Research and Robot-ready Biodiversity Data Standards</p>
+    </div>
+  </header>
+
+  <main>
+    <aside class="unofficial-notice" aria-label="Unofficial program notice">
+      <strong>Unofficial program.</strong>
+      This independent schedule was prepared from the published TDWG 2026 programme.
+      For last-minute changes and participation details, check the
+      <a href="https://www.tdwg.org/conferences/2026/program/schedule/">official TDWG schedule</a>
+      and <a href="https://whova.com/portal/webapp/5hAJHQPRggxKYAh2CDov/">Whova</a>.
+    </aside>
+
+    <div class="programme-app">
+      <div class="programme-intro">
+        <p class="lead">Select any talk to see its abstract, presenter, time, room and session information.</p>
+        <p class="programme-updated">Program current as of 19 September 2026.</p>
+      </div>
+
+      <div class="programme-tools" aria-label="Program filters">
+        <label class="programme-search">
+          <span>Search talks, presenters or sessions</span>
+          <input type="search" data-programme-search autocomplete="off" placeholder="Start typing to filter the program">
+        </label>
+        <div class="programme-days" data-programme-days role="tablist" aria-label="Conference day"></div>
+      </div>
+
+      <p class="programme-status" data-programme-status role="status">Loading program…</p>
+      <div class="programme-schedule" data-programme-schedule></div>
+
+      <dialog class="programme-dialog" data-programme-dialog aria-labelledby="programme-dialog-title">
+        <div class="programme-dialog-panel">
+          <button class="programme-dialog-close" type="button" data-programme-close aria-label="Close abstract">&times;</button>
+          <p class="programme-dialog-kicker" data-dialog-kicker></p>
+          <h2 id="programme-dialog-title" data-dialog-title></h2>
+          <p class="programme-dialog-speakers" data-dialog-speakers></p>
+          <dl class="programme-dialog-meta" data-dialog-meta></dl>
+          <div class="programme-dialog-note" data-dialog-note hidden></div>
+          <div class="programme-dialog-abstract" data-dialog-abstract></div>
+        </div>
+      </dialog>
+    </div>
+
+    <noscript>
+      <p class="unofficial-notice">JavaScript is required for the interactive program and abstract windows.</p>
+    </noscript>
+  </main>
+
+  <footer class="site-footer">
+    <p>Unofficial schedule · Source information from the published TDWG 2026 programme.</p>
+  </footer>
+
+  <script src="assets/program-data.js" defer></script>
+  <script src="assets/program.js" defer></script>
+</body>
+</html>
