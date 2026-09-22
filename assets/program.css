@@ -147,6 +147,7 @@ main {
 .programme-search input:focus,
 .programme-day:focus-visible,
 .programme-talk-link:focus-visible,
+.programme-talk-star:focus-visible,
 .programme-dialog-close:focus-visible {
   outline: 3px solid rgba(20, 107, 120, .3);
   outline-offset: 2px;
@@ -249,11 +250,45 @@ main {
 }
 
 .programme-talk {
+  background: #fff;
   border-top: 1px solid var(--programme-line);
   display: grid;
   gap: .45rem;
-  grid-template-columns: 3.45rem 1fr;
+  grid-template-columns: 3.45rem minmax(0, 1fr) 2rem;
   padding: .55rem .7rem;
+  transition: background-color .15s ease;
+}
+
+.programme-talk-starred {
+  background: #fff3a6;
+}
+
+.programme-talk-star {
+  align-items: center;
+  align-self: start;
+  background: transparent;
+  border: 0;
+  border-radius: 999px;
+  color: #7b8589;
+  cursor: pointer;
+  display: flex;
+  font: inherit;
+  font-size: 1.25rem;
+  height: 2rem;
+  justify-content: center;
+  line-height: 1;
+  margin: -.35rem -.35rem 0 0;
+  padding: 0;
+  width: 2rem;
+}
+
+.programme-talk-star:hover {
+  background: rgba(255, 255, 255, .7);
+  color: #6b5200;
+}
+
+.programme-talk-star[aria-pressed="true"] {
+  color: #9b7000;
 }
 
 .programme-talk-time {
@@ -427,8 +462,21 @@ main {
   }
 
   .programme-talk {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr) 2rem;
     gap: .25rem;
+  }
+
+  .programme-talk-time {
+    grid-column: 1;
+  }
+
+  .programme-talk > div {
+    grid-column: 1;
+  }
+
+  .programme-talk-star {
+    grid-column: 2;
+    grid-row: 1 / span 2;
   }
 }
 

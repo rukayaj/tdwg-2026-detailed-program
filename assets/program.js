@@ -14,6 +14,8 @@
   let selectedDay;
   let previousFocus;
   let talkById = new Map();
+  const starredTalksKey = "tdwg-2026-starred-talks";
+  let starredTalks = loadStarredTalks();
 
   const trackColours = [
     [/AI|ROBOT/i, ["#dceDEA", "#205a51"]],
@@ -32,6 +34,32 @@
     if (className) node.className = className;
     if (text !== undefined) node.textContent = text;
     return node;
+  }
+
+  function loadStarredTalks() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(starredTalksKey) || "[]");
+      return new Set(Array.isArray(saved) ? saved.filter((id) => typeof id === "string") : []);
+    } catch (error) {
+      console.warn("Could not load starred program talks", error);
+      return new Set();
+    }
+  }
+
+  function saveStarredTalks() {
+    try {
+      localStorage.setItem(starredTalksKey, JSON.stringify([...starredTalks]));
+    } catch (error) {
+      console.warn("Could not save starred program talks", error);
+    }
+  }
+
+  function setStarState(row, button, item) {
+    const isStarred = starredTalks.has(item.id);
+    row.classList.toggle("programme-talk-starred", isStarred);
+    button.setAttribute("aria-pressed", String(isStarred));
+    button.setAttribute("aria-label", `${isStarred ? "Remove star from" : "Star"} ${item.title}`);
+    button.title = isStarred ? "Remove from starred talks" : "Add to starred talks";
   }
 
   function time24(value) {
@@ -114,7 +142,16 @@
     if (item.virtual) details.append(element("span", "programme-badge", "Virtual"));
     if (item.cancelled) details.append(element("span", "programme-badge programme-badge-cancelled", "Cancelled"));
     details.append(element("span", "programme-talk-speakers", item.speakers.join(", ") || "Presenter not listed"));
-    row.append(details);
+    const star = element("button", "programme-talk-star", "★");
+    star.type = "button";
+    setStarState(row, star, item);
+    star.addEventListener("click", () => {
+      if (starredTalks.has(item.id)) starredTalks.delete(item.id);
+      else starredTalks.add(item.id);
+      saveStarredTalks();
+      setStarState(row, star, item);
+    });
+    row.append(details, star);
     return row;
   }
 
@@ -266,6 +303,11 @@
     closeDialog(true);
   });
   window.addEventListener("popstate", handleHash);
+  window.addEventListener("storage", (event) => {
+    if (event.key !== starredTalksKey) return;
+    starredTalks = loadStarredTalks();
+    renderSchedule();
+  });
   search.addEventListener("input", renderSchedule);
 
   const programme = window.TDWG_2026_PROGRAMME;
