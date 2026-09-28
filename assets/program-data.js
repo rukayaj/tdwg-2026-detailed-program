@@ -1,5 +1,5 @@
 window.TDWG_2026_PROGRAMME = {
-  "updated": "2026-09-19",
+  "updated": "2026-09-28",
   "days": [
     "Monday 21 September",
     "Tuesday 22 September",
@@ -650,7 +650,7 @@ window.TDWG_2026_PROGRAMME = {
       "items": [
         {
           "id": "event-031",
-          "title": "Role-Based Access Control (RBAC) for RASD: The Flemish Biodiversity Portal Approach",
+          "title": "[No sound] Role-Based Access Control (RBAC) for RASD: The Flemish Biodiversity Portal Approach",
           "start": "8:30 AM",
           "end": "8:45 AM",
           "speakers": [
@@ -659,7 +659,7 @@ window.TDWG_2026_PROGRAMME = {
           "abstract": "Managing Restricted Access Species Data (RASD) becomes complex when regional portals must balance local sensitivity requirements with global data sharing through aggregators like GBIF. The Flemish Biodiversity Portal (VBP), built on the Atlas of Living Australia (ALA), addresses this by utilizing a \"twin dataset\" architecture, ensuring that high-resolution data remains secure while a more generalized version is made publicly available. This strategy prevents the exposure of precise coordinates on global platforms while the dataset structure, metadata and most of the identifiers stay the same.\n\nIn this presentation, we detail how VBP manages these twins using Role-Based Access Control (RBAC) logic embedded within the dynamicProperties field. By utilizing machine-readable flags-such as {\"rbac\":true, \"rbac_allowed\":\"HIGHRES\"}-the portal dynamically determines data visibility. Users with authorized roles access the high-resolution \"twin,\" while the general public is directed to the low-resolution version.\n\nThis dual-dataset approach ensures that \"not seeing\" high-resolution data is a deliberate, governed choice rather than a technical limitation. We will discuss the synchronization challenges inherent in maintaining twins and how this workflow aligns with the TDWG RASD extension’s goal of standardizing the reasons and treatments for data restriction. By providing a transparent metadata trail for why a dataset is restricted or generalized, VBP demonstrates a scalable model for regional nodes to contribute to the global biodiversity data commons without compromising local conservation priorities.",
           "virtual": false,
           "cancelled": false,
-          "note": "",
+          "note": "No sound during the first approximately 17 minutes of SYM23.",
           "sessionCode": "SYM23",
           "sessionTitle": "To see or not to see - that is the question. Managing restricted access data (RASD)",
           "room": "SAL B",
@@ -668,7 +668,7 @@ window.TDWG_2026_PROGRAMME = {
         },
         {
           "id": "event-032",
-          "title": "Restricted access species data in Finland",
+          "title": "[No sound] Restricted access species data in Finland",
           "start": "8:45 AM",
           "end": "9:00 AM",
           "speakers": [
@@ -677,7 +677,7 @@ window.TDWG_2026_PROGRAMME = {
           "abstract": "The Finnish Act on the Openness of Government Activities (621/1999) necessitates that species data in Finland is not made publicly available if it would endanger the protection of the species or area in question. The Finnish Biodiversity Information Facility (FinBIF) is a service for researchers, government and the public. The data harmonised in FinBIF's data warehouse includes the results of national monitoring programs, scientific collections and citizen science projects. FinBIF is the body primarily responsible for managing Finnish restricted access species data (RASD). FinBIF coordinates an expert panel, the Public Authorities Working Group, that maintains a list of taxa that require some level of data restriction. The Public Authorities Working Group determines the level of restriction and circumstances under which it should be applied. Each taxon included on the list must be subject to a concrete threat: persecution, harvesting, or disturbance. The list was first compiled in 2015, and a comprehensive update was carried out in 2025. Minor updates are made as needed. There are currently 155 listed taxa. Species data that is mobilised by FinBIF has restrictions applied on being harmonised in the data warehouse, before being made publicly available. The unrestricted data is made available in a parallel data warehouse that can only be accessed by registered users from statutory public authorities. Other data users may make a request for access to restricted data. Requests are fulfilled via a data access platform on a case by case basis with the consent of the data providers or relevant proxies. We outline the system for handling RASD in Finland and discuss how current and proposed biodiversity data standards may aid data providers and users.",
           "virtual": false,
           "cancelled": false,
-          "note": "",
+          "note": "No sound during the first approximately 17 minutes of SYM23.",
           "sessionCode": "SYM23",
           "sessionTitle": "To see or not to see - that is the question. Managing restricted access data (RASD)",
           "room": "SAL B",
@@ -917,7 +917,7 @@ window.TDWG_2026_PROGRAMME = {
         },
         {
           "id": "event-046",
-          "title": "Developing and implementing relational mineral taxonomy model in EMu for Museums Victoria's Mineral Collection",
+          "title": "[Skipped talk] Developing and implementing relational mineral taxonomy model in EMu for Museums Victoria's Mineral Collection",
           "start": "9:50 AM",
           "end": "10:05 AM",
           "speakers": [
@@ -926,7 +926,7 @@ window.TDWG_2026_PROGRAMME = {
           "abstract": "Mineral identification and classification data in Museum’s Victoria’s (MV's) EMu CMS have until recently been stored within individual specimens’ catalogue records and managed as part of a series of shared hierarchical look-up-lists. This is unlike MV's biological taxonomic data, which have made use of a one-to-many relational structure between taxonomy and catalogue records at least since the implementation of EMu in the late 1990’s. Disadvantages of the model previously applied to mineral data include difficulties making changes following nomenclature revisions, an inability to capture incomplete taxonomy (eg. cataloguing specimens only identified to the level of a group or solid solution series), and a limited ability to query the database on mineral properties, chemistry or classification schemes.\n\nI report on the development and implementation of a relational mineral taxonomy model in EMu over 2025-26. This model captures a hierarchy of mineral taxonomy; subgroup, group and supergroup as formlised by the International Mineralogical Association (IMA) in 2009, the Dana and Strunz classification systems, ideal chemical formula and elements, and IMA approval status. It also allows use of some existing functionality for zoological taxonomy, capturing the history of identification and linking taxonomy records to publications in which species were described or revised. Data to populate 6,125 taxonomy records for IMA approved mineral species were extracted from Mindat.org via their API. A further 162 taxonomy records for invalid, as yet undescribed, or incompletely classified specimens were created and manually populated. These 6,287 taxonomy records have been linked to the 56,792 catalogue records containing mineral identification data in MV's database.",
           "virtual": true,
           "cancelled": false,
-          "note": "",
+          "note": "This talk was skipped.",
           "sessionCode": "SYM06",
           "sessionTitle": "Rocks, Minerals, and Metadata: Integrating Earth Sciences into the TDWG Community",
           "room": "SAL C",
@@ -2617,7 +2617,7 @@ window.TDWG_2026_PROGRAMME = {
         },
         {
           "id": "event-145",
-          "title": "Imaging, AI and robotics for high-throughput insect digitisation at CSIRO’s National Research Collections of Australia",
+          "title": "[Skipped talk] Imaging, AI and robotics for high-throughput insect digitisation at CSIRO’s National Research Collections of Australia",
           "start": "4:40 PM",
           "end": "4:45 PM",
           "speakers": [
@@ -2626,7 +2626,7 @@ window.TDWG_2026_PROGRAMME = {
           "abstract": "CSIRO’s National Research Collections of Australia (NRCA) contain an estimated 15 million specimens, including approximately 12 million insects. To accelerate scalable specimen data acquisition, NRCA is collaborating with CSIRO technology science teams to develop integrated imaging, OCR, machine learning, and assisted-robotic workflows for high-throughput digitisation.\n\nA key development is the Insect Recording and Imaging System (IRIS), a multi-angle imaging platform for pinned insect specimens that captures specimens and their associated labels without removing labels. IRIS reduces imaging time from more than 6 minutes to approximately 30 seconds per specimen, substantially increasing throughput while minimising specimen-handling risks. Computer vision pipelines segment and reconstruct label data from image sets, integrating with in-house OCR tools for automated transcription and structured metadata extraction designed for bulk upload into our Specify collections management system.\n\nIn addition, our robotics research teams are developing autonomous specimen manipulation, including robotic handling systems, gripper design, automated loading and unloading workflows, and human-in-the-loop approaches that prioritise specimen safety while improving scalability. Supplementary exploratory workflows include high-resolution drawer capture and automated drawer-level metadata generation to support inventory management and tracking.\n\nThis case study highlights the development of hybrid imaging and robotic workflows for generating machine-actionable specimen data at scale. We discuss throughput optimisation, workflow integration, automated metadata extraction, human-robot interaction and the challenges of balancing automation and specimen safety to digitise collections at scale.",
           "virtual": true,
           "cancelled": false,
-          "note": "",
+          "note": "This talk was skipped because the sound quality was poor.",
           "sessionCode": "LT17",
           "sessionTitle": "Bots, Bits, and Biodiversity",
           "room": "SAL B",
@@ -2784,41 +2784,13 @@ window.TDWG_2026_PROGRAMME = {
       ]
     },
     {
-      "id": "sheet-wks39",
-      "code": "WKS39",
-      "title": "Using the new DarwinCore Data Package to promote FAIR data principles in ecological research",
-      "day": "Thursday 24 September",
-      "start": "8:30 AM",
-      "end": "10:30 AM",
-      "room": "FORUM",
-      "track": "DARWIN CORE, STANDARDS DEVELOPMENT & IMPLEMENTATION",
-      "items": [
-        {
-          "id": "sheet-wks39",
-          "title": "WKS39 - Using the new DarwinCore Data Package to promote FAIR data principles in ecological research",
-          "start": "8:30 AM",
-          "end": "10:30 AM",
-          "speakers": [],
-          "abstract": "",
-          "virtual": false,
-          "cancelled": false,
-          "note": "Listed in the published programme overview but not present in the supplied Whova detailed agenda; no talk details or abstract were available.",
-          "sessionCode": "WKS39",
-          "sessionTitle": "Using the new DarwinCore Data Package to promote FAIR data principles in ecological research",
-          "room": "FORUM",
-          "day": "Thursday 24 September",
-          "track": "DARWIN CORE, STANDARDS DEVELOPMENT & IMPLEMENTATION"
-        }
-      ]
-    },
-    {
       "id": "event-197",
       "code": "SYM38",
       "title": "Sustaining the Geo- and Biodiversity Data Ecosystem: Standards-Driven Approaches to Long-Term Resilience",
       "day": "Thursday 24 September",
       "start": "8:30 AM",
       "end": "10:30 AM",
-      "room": "ODIN",
+      "room": "FORUM",
       "track": "RESILIENCE & SUSTAINABILITY OF DATA INFRASTRUCTURES",
       "items": [
         {
@@ -2835,7 +2807,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM38",
           "sessionTitle": "Sustaining the Geo- and Biodiversity Data Ecosystem: Standards-Driven Approaches to Long-Term Resilience",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "RESILIENCE & SUSTAINABILITY OF DATA INFRASTRUCTURES"
         },
@@ -2853,7 +2825,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM38",
           "sessionTitle": "Sustaining the Geo- and Biodiversity Data Ecosystem: Standards-Driven Approaches to Long-Term Resilience",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "RESILIENCE & SUSTAINABILITY OF DATA INFRASTRUCTURES"
         },
@@ -2871,7 +2843,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM38",
           "sessionTitle": "Sustaining the Geo- and Biodiversity Data Ecosystem: Standards-Driven Approaches to Long-Term Resilience",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "RESILIENCE & SUSTAINABILITY OF DATA INFRASTRUCTURES"
         },
@@ -2889,7 +2861,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM38",
           "sessionTitle": "Sustaining the Geo- and Biodiversity Data Ecosystem: Standards-Driven Approaches to Long-Term Resilience",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "RESILIENCE & SUSTAINABILITY OF DATA INFRASTRUCTURES"
         },
@@ -2907,7 +2879,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM38",
           "sessionTitle": "Sustaining the Geo- and Biodiversity Data Ecosystem: Standards-Driven Approaches to Long-Term Resilience",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "RESILIENCE & SUSTAINABILITY OF DATA INFRASTRUCTURES"
         },
@@ -2925,7 +2897,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM38",
           "sessionTitle": "Sustaining the Geo- and Biodiversity Data Ecosystem: Standards-Driven Approaches to Long-Term Resilience",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "RESILIENCE & SUSTAINABILITY OF DATA INFRASTRUCTURES"
         },
@@ -2943,7 +2915,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM38",
           "sessionTitle": "Sustaining the Geo- and Biodiversity Data Ecosystem: Standards-Driven Approaches to Long-Term Resilience",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "RESILIENCE & SUSTAINABILITY OF DATA INFRASTRUCTURES"
         },
@@ -2961,7 +2933,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM38",
           "sessionTitle": "Sustaining the Geo- and Biodiversity Data Ecosystem: Standards-Driven Approaches to Long-Term Resilience",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "RESILIENCE & SUSTAINABILITY OF DATA INFRASTRUCTURES"
         },
@@ -2977,9 +2949,37 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM38",
           "sessionTitle": "Sustaining the Geo- and Biodiversity Data Ecosystem: Standards-Driven Approaches to Long-Term Resilience",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "RESILIENCE & SUSTAINABILITY OF DATA INFRASTRUCTURES"
+        }
+      ]
+    },
+    {
+      "id": "sheet-wks39",
+      "code": "WKS39",
+      "title": "[Cancelled] Using the new DarwinCore Data Package to promote FAIR data principles in ecological research",
+      "day": "Thursday 24 September",
+      "start": "8:30 AM",
+      "end": "10:30 AM",
+      "room": "ODIN",
+      "track": "DARWIN CORE, STANDARDS DEVELOPMENT & IMPLEMENTATION",
+      "items": [
+        {
+          "id": "sheet-wks39",
+          "title": "WKS39 - Using the new DarwinCore Data Package to promote FAIR data principles in ecological research",
+          "start": "8:30 AM",
+          "end": "10:30 AM",
+          "speakers": [],
+          "abstract": "",
+          "virtual": false,
+          "cancelled": true,
+          "note": "This workshop was cancelled.",
+          "sessionCode": "WKS39",
+          "sessionTitle": "[Cancelled] Using the new DarwinCore Data Package to promote FAIR data principles in ecological research",
+          "room": "ODIN",
+          "day": "Thursday 24 September",
+          "track": "DARWIN CORE, STANDARDS DEVELOPMENT & IMPLEMENTATION"
         }
       ]
     },
@@ -3540,41 +3540,13 @@ window.TDWG_2026_PROGRAMME = {
       ]
     },
     {
-      "id": "event-240",
-      "code": "DS40",
-      "title": "National and policy-relevant species checklists: why official, updated and validated data matter",
-      "day": "Thursday 24 September",
-      "start": "11:00 AM",
-      "end": "12:30 PM",
-      "room": "FORUM",
-      "track": "COMMUNITY SCIENCE, ENGAGEMENT & REGIONAL NETWORKS",
-      "items": [
-        {
-          "id": "event-240",
-          "title": "DS40 - National and policy-relevant species checklists: why official, updated and validated data matter",
-          "start": "11:00 AM",
-          "end": "12:30 PM",
-          "speakers": [],
-          "abstract": "National and policy-relevant species checklists, like protected or alien species lists, and national inventories, are essential inputs for biodiversity policy and decision making, serving as regulatory tools and foundations for governmental strategies. National checklists are typically scientifically driven instruments supporting natural resources management, while policy-relevant such as IUCN, CITES, or GRISS build on scientific evidence and incorporate additional economic, regulatory, or societal considerations.\n\nVariation in origin, scope, structure, licensing, and quality has limited their interoperability and use in global biodiversity infrastructures, despite ongoing progress toward improved standardization.\n\nThrough ChecklistBank, the Catalogue of Life (COL) already hosts over 1,000 national and 400 policy-relevant lists, positioning it as a key platform for improving access, visibility, and reuse.\n\nThis session will combine short presentations with an open, moderated discussion to explore the needs around generating and using these lists, and how COL can support processes from production through publication. Discussion topics include translating heterogeneous lists into shared data standards, improving metadata and validation for policy use, and documenting taxonomic differences transparently. By bringing together taxonomists, data managers, and policymakers, we seek pathways to build trust, improve integration, and translate taxonomic work into sustained policy impact.\n\nDiscussion leaders\n\nDiana Hernandez Editor | Catalogue of Life\n\nCamila Plata Catalogue of Life\n\nOlaf Banki Catalogue of Life Foundation",
-          "virtual": false,
-          "cancelled": false,
-          "note": "",
-          "sessionCode": "DS40",
-          "sessionTitle": "National and policy-relevant species checklists: why official, updated and validated data matter",
-          "room": "FORUM",
-          "day": "Thursday 24 September",
-          "track": "COMMUNITY SCIENCE, ENGAGEMENT & REGIONAL NETWORKS"
-        }
-      ]
-    },
-    {
       "id": "event-234",
       "code": "CO4",
       "title": "FAIR data in practice - eDNA, modelling and biodiversity concepts",
       "day": "Thursday 24 September",
       "start": "11:00 AM",
       "end": "12:30 PM",
-      "room": "ODIN",
+      "room": "FORUM",
       "track": "CONTRIBUTED ORALS",
       "items": [
         {
@@ -3591,7 +3563,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "CO4",
           "sessionTitle": "FAIR data in practice - eDNA, modelling and biodiversity concepts",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "CONTRIBUTED ORALS"
         },
@@ -3609,7 +3581,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "CO4",
           "sessionTitle": "FAIR data in practice - eDNA, modelling and biodiversity concepts",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "CONTRIBUTED ORALS"
         },
@@ -3627,7 +3599,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "CO4",
           "sessionTitle": "FAIR data in practice - eDNA, modelling and biodiversity concepts",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "CONTRIBUTED ORALS"
         },
@@ -3645,7 +3617,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "CO4",
           "sessionTitle": "FAIR data in practice - eDNA, modelling and biodiversity concepts",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "CONTRIBUTED ORALS"
         },
@@ -3663,9 +3635,37 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "CO4",
           "sessionTitle": "FAIR data in practice - eDNA, modelling and biodiversity concepts",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "CONTRIBUTED ORALS"
+        }
+      ]
+    },
+    {
+      "id": "event-240",
+      "code": "DS40",
+      "title": "National and policy-relevant species checklists: why official, updated and validated data matter",
+      "day": "Thursday 24 September",
+      "start": "11:00 AM",
+      "end": "12:30 PM",
+      "room": "ODIN",
+      "track": "COMMUNITY SCIENCE, ENGAGEMENT & REGIONAL NETWORKS",
+      "items": [
+        {
+          "id": "event-240",
+          "title": "DS40 - National and policy-relevant species checklists: why official, updated and validated data matter",
+          "start": "11:00 AM",
+          "end": "12:30 PM",
+          "speakers": [],
+          "abstract": "National and policy-relevant species checklists, like protected or alien species lists, and national inventories, are essential inputs for biodiversity policy and decision making, serving as regulatory tools and foundations for governmental strategies. National checklists are typically scientifically driven instruments supporting natural resources management, while policy-relevant such as IUCN, CITES, or GRISS build on scientific evidence and incorporate additional economic, regulatory, or societal considerations.\n\nVariation in origin, scope, structure, licensing, and quality has limited their interoperability and use in global biodiversity infrastructures, despite ongoing progress toward improved standardization.\n\nThrough ChecklistBank, the Catalogue of Life (COL) already hosts over 1,000 national and 400 policy-relevant lists, positioning it as a key platform for improving access, visibility, and reuse.\n\nThis session will combine short presentations with an open, moderated discussion to explore the needs around generating and using these lists, and how COL can support processes from production through publication. Discussion topics include translating heterogeneous lists into shared data standards, improving metadata and validation for policy use, and documenting taxonomic differences transparently. By bringing together taxonomists, data managers, and policymakers, we seek pathways to build trust, improve integration, and translate taxonomic work into sustained policy impact.\n\nDiscussion leaders\n\nDiana Hernandez Editor | Catalogue of Life\n\nCamila Plata Catalogue of Life\n\nOlaf Banki Catalogue of Life Foundation",
+          "virtual": false,
+          "cancelled": false,
+          "note": "",
+          "sessionCode": "DS40",
+          "sessionTitle": "National and policy-relevant species checklists: why official, updated and validated data matter",
+          "room": "ODIN",
+          "day": "Thursday 24 September",
+          "track": "COMMUNITY SCIENCE, ENGAGEMENT & REGIONAL NETWORKS"
         }
       ]
     },
@@ -4134,41 +4134,13 @@ window.TDWG_2026_PROGRAMME = {
       ]
     },
     {
-      "id": "event-277",
-      "code": "DS31",
-      "title": "Panel Discussion: Critically Assessing the Role of AI in Biodiversity Research",
-      "day": "Thursday 24 September",
-      "start": "2:00 PM",
-      "end": "3:30 PM",
-      "room": "FORUM",
-      "track": "AI AND ROBOT READY",
-      "items": [
-        {
-          "id": "event-277",
-          "title": "DS31 - Panel Discussion: Critically Assessing the Role of AI in Biodiversity Research",
-          "start": "2:00 PM",
-          "end": "3:30 PM",
-          "speakers": [],
-          "abstract": "AI promises much to scientists working with biodiversity data. There has been a recent surge in projects based on LLMs and related technologies: systems that go beyond species identification from images and also identify species traits, agents answering complex ecological questions in natural language based on real data, machine transcription that not only reads handwritten labels but understands them. Such projects, and many more, hope to harness AI in answering some of the most pressing questions in biodiversity research, multiplying the efforts of scientists through more efficient research, larger studies, and novel insights into data.\n\nBut while much is promised, critics might say that little has been delivered. Studies focus on the exciting potential of new models, but often lack performance metrics to prove their abilities. Are the data centres in which our models run destroying the same ecosystems we study? Does public backlash to AI risk losing the trust of citizen scientists whose data is used in training models without attribution or consent? Is AI amplifying our abilities, or are we outsourcing our thinking and neglecting hard-won expert knowledge? How do we reconcile a reliance on closed models and secret training data with our obligations to FAIR and open science?\n\nThis discussion session invites a panel of experts to discuss these topics with our audience, with the aim of co-creating guidelines for effective and ethical use of AI in biodiversity research.",
-          "virtual": false,
-          "cancelled": false,
-          "note": "",
-          "sessionCode": "DS31",
-          "sessionTitle": "Panel Discussion: Critically Assessing the Role of AI in Biodiversity Research",
-          "room": "FORUM",
-          "day": "Thursday 24 September",
-          "track": "AI AND ROBOT READY"
-        }
-      ]
-    },
-    {
       "id": "event-267",
       "code": "SYM45",
       "title": "Planning the Libroscope: creating research ready biodiversity from scientific publications",
       "day": "Thursday 24 September",
       "start": "2:00 PM",
       "end": "3:30 PM",
-      "room": "ODIN",
+      "room": "FORUM",
       "track": "BIODIVERSITY LITERATURE & KNOWLEDGE EXTRACTION",
       "items": [
         {
@@ -4185,7 +4157,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM45",
           "sessionTitle": "Planning the Libroscope: creating research ready biodiversity from scientific publications",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "BIODIVERSITY LITERATURE & KNOWLEDGE EXTRACTION"
         },
@@ -4203,7 +4175,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM45",
           "sessionTitle": "Planning the Libroscope: creating research ready biodiversity from scientific publications",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "BIODIVERSITY LITERATURE & KNOWLEDGE EXTRACTION"
         },
@@ -4221,7 +4193,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM45",
           "sessionTitle": "Planning the Libroscope: creating research ready biodiversity from scientific publications",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "BIODIVERSITY LITERATURE & KNOWLEDGE EXTRACTION"
         },
@@ -4239,7 +4211,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM45",
           "sessionTitle": "Planning the Libroscope: creating research ready biodiversity from scientific publications",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "BIODIVERSITY LITERATURE & KNOWLEDGE EXTRACTION"
         },
@@ -4257,7 +4229,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM45",
           "sessionTitle": "Planning the Libroscope: creating research ready biodiversity from scientific publications",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "BIODIVERSITY LITERATURE & KNOWLEDGE EXTRACTION"
         },
@@ -4275,7 +4247,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM45",
           "sessionTitle": "Planning the Libroscope: creating research ready biodiversity from scientific publications",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "BIODIVERSITY LITERATURE & KNOWLEDGE EXTRACTION"
         },
@@ -4293,7 +4265,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM45",
           "sessionTitle": "Planning the Libroscope: creating research ready biodiversity from scientific publications",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "BIODIVERSITY LITERATURE & KNOWLEDGE EXTRACTION"
         },
@@ -4311,7 +4283,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM45",
           "sessionTitle": "Planning the Libroscope: creating research ready biodiversity from scientific publications",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "BIODIVERSITY LITERATURE & KNOWLEDGE EXTRACTION"
         },
@@ -4329,129 +4301,37 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM45",
           "sessionTitle": "Planning the Libroscope: creating research ready biodiversity from scientific publications",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "BIODIVERSITY LITERATURE & KNOWLEDGE EXTRACTION"
         }
       ]
     },
     {
-      "id": "event-243",
-      "code": "SYM37A",
-      "title": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
+      "id": "event-277",
+      "code": "DS31",
+      "title": "Panel Discussion: Critically Assessing the Role of AI in Biodiversity Research",
       "day": "Thursday 24 September",
       "start": "2:00 PM",
       "end": "3:30 PM",
-      "room": "SAL A",
-      "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS",
+      "room": "ODIN",
+      "track": "AI AND ROBOT READY",
       "items": [
         {
-          "id": "event-244",
-          "title": "Not just another database: building the future of freshwater taxonomy with FADAtims",
+          "id": "event-277",
+          "title": "DS31 - Panel Discussion: Critically Assessing the Role of AI in Biodiversity Research",
           "start": "2:00 PM",
-          "end": "2:20 PM",
-          "speakers": [
-            "Astrid Schmidt-Kloiber"
-          ],
-          "abstract": "Freshwater biodiversity is declining rapidly, yet freshwater taxonomy remains fragmented across databases, standards and expert communities. Maintaining reliable species lists is challenging because names change continuously, new taxa are described, and taxonomic concepts differ between regions and organism groups. These issues limit interoperability between biodiversity infrastructures and constrain large-scale ecological assessments and policy applications. To address this gap, we are developing FADAtims, an online taxonomic information management system for collaborative curation of freshwater biodiversity checklists, which is developed within the Belspo-funded infraFADA project. The platform enables registered experts to curate and continuously update species names, synonyms, classification, distribution and status information through a transparent and traceable workflow. FADAtims is designed as a FAIR, interoperable and machine-actionable infrastructure component for freshwater biodiversity data. Built with open-source technologies and aligned with Biodiversity Information Standards, it supports data exchange with major biodiversity infrastructures including GBIF, Catalogue of Life and the Freshwater Information Platform. Interoperability with systems such as WoRMS and TaxonWorks further supports harmonisation and long-term sustainability. The platform aims to provide an authoritative freshwater taxonomic backbone that can be linked to occurrence, trait and monitoring databases as well as conservation assessments. We present the current status of FADAtims, its role within the emerging freshwater biodiversity data ecosystem and discuss community-driven approaches for sustaining curated freshwater taxonomy infrastructures.",
-          "virtual": false,
-          "cancelled": false,
-          "note": "",
-          "sessionCode": "SYM37A",
-          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
-          "room": "SAL A",
-          "day": "Thursday 24 September",
-          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
-        },
-        {
-          "id": "event-245",
-          "title": "Catalogue of Life and Freshwater species data",
-          "start": "2:20 PM",
-          "end": "2:35 PM",
-          "speakers": [
-            "Olaf Banki"
-          ],
-          "abstract": "30 years ago the activities that led to the Catalogue of Life started. For 25 years the catalogue of described organisms of all life, has been freely available online. GBIF, also celebrating a 25 year anniversary, is now making use of the Catalogue of Life as the taxonomic reference for the 3.7 billion species occurrences it mediates. Although a lot of progress has been made, there are still obvious taxonomic gaps. Some groups are notoriously under-represented and incomplete (like insects). In other cases, taxonomic data from specific ecosystem realms like freshwater is scarce. The Catalogue of Life infrastructure, ChecklistBank, now promotes the open data publishing of taxonomic and nomenclatural resources, and different types of species lists (such as policy-relevant lists). The infrastructure also provides the means to share species interaction data. We will provide an overview of the available information in Catalogue of Life and in its infrastructure. We also discuss how this data could be improved, for example through collaboration with initiatives like the Freshwater Animal Diversity Assessment.",
-          "virtual": false,
-          "cancelled": false,
-          "note": "",
-          "sessionCode": "SYM37A",
-          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
-          "room": "SAL A",
-          "day": "Thursday 24 September",
-          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
-        },
-        {
-          "id": "event-246",
-          "title": "A species-level taxonomic catalog of Neotropical freshwater insects: building a consensus reference for occurrence data integration, and conservation planning.",
-          "start": "2:35 PM",
-          "end": "2:50 PM",
-          "speakers": [
-            "Alejandra Correa-Bedoya"
-          ],
-          "abstract": "Freshwaters are among the most biodiverse yet data-deficient habitats globally, and the Neotropical region exemplifies this paradox - exceptional aquatic insect diversity combined with critical taxonomic and distributional gaps rooted in historical undersampling. To our knowledge, no equivalent species-level, multi-order catalog of freshwater insects exists for the Neotropical region. Here we present an ongoing effort to compile a DarwinCore-compliant catalog of freshwater aquatic insects for the Neotropical lowlands, covering seven orders: Trichoptera, Coleoptera, Odonata, Ephemeroptera, Plecoptera, Hemiptera, and Megaloptera. All compiled species names are verified against the GBIF Backbone Taxonomy and the Catalogue of Life, documenting nomenclatural discrepancies including synonyms, combinationes novae, and typographic errors. Country-level distribution data are linked to georeferenced occurrence records from GBIF and regional sources. For each verified species, occurrence records are cleaned and linked to stream network segments, with environmental and topographic variables extracted at the sub-catchment scale. This dataset will underpin distribution modelling across the Magdalena-Cauca Basin in Colombia, assessing how river network structure shapes richness, rarity, and endemism, and prioritising conservation areas accounting for cumulative hydropower impacts on freshwater connectivity.",
-          "virtual": false,
-          "cancelled": false,
-          "note": "",
-          "sessionCode": "SYM37A",
-          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
-          "room": "SAL A",
-          "day": "Thursday 24 September",
-          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
-        },
-        {
-          "id": "event-247",
-          "title": "Biodiversity data at your fingertips: open-access freshwater biodiversity information systems for South Africa and Africa",
-          "start": "2:50 PM",
-          "end": "3:05 PM",
-          "speakers": [
-            "Helen Dallas"
-          ],
-          "abstract": "Freshwater biodiversity data are essential for monitoring ecosystem change, informing conservation, and supporting evidence-based management. However, such data often remain fragmented, inaccessible, or poorly integrated across scales, institutions, and regions. The Freshwater Biodiversity Information System (FBIS) and FBIS-Africa platforms, developed for South Africa and the broader African region respectively, respond directly to this need. FBIS is a powerful, visual, data-rich system designed to host, share, and explore freshwater biodiversity data. Its design and functionality have been shaped by key user groups, including water resource managers, conservation practitioners, planners, researchers, and environmental consultants. Both platforms interoperate with global biodiversity infrastructures, including GBIF and the IUCN Red List of Threatened Species, contributing to a more connected and accessible freshwater biodiversity data ecosystem. By combining regional expertise, open infrastructure, and interoperable data workflows, FBIS and FBIS-Africa demonstrate how community-driven information systems can support FAIR biodiversity data mobilisation and translate knowledge into actionable conservation and management outcomes. The South African platform already supports improved freshwater science, conservation, and decision-making at a national scale, with approximately 14 million occurrence records across eight biodiversity modules. The recently developed FBIS-Africa platform is rapidly expanding in both data coverage and user uptake. Together, these platforms play a critical role in translating freshwater biodiversity data into informed monitoring, management, and conservation action across local, regional, continental, and global scales.",
-          "virtual": true,
-          "cancelled": false,
-          "note": "",
-          "sessionCode": "SYM37A",
-          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
-          "room": "SAL A",
-          "day": "Thursday 24 September",
-          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
-        },
-        {
-          "id": "event-248",
-          "title": "The FIPbio data portal: towards an integrated freshwater biodiversity data ecosystem",
-          "start": "3:05 PM",
-          "end": "3:20 PM",
-          "speakers": [
-            "Vanessa Bremerich"
-          ],
-          "abstract": "Freshwater biodiversity research, monitoring and policy increasingly rely on interoperable data infrastructures linking taxonomy, biodiversity observations, abiotic sampling data and remote sensing products. With the renewal of the freshwater biodiversity data portal FIPbio within the Freshwater Information Platform (FIP), we present a framework integrating freshwater occurrence records, eDNA observations, sampling data and satellite-derived environmental time series, including chlorophyll-a dynamics and land-use change, across lakes, wetlands and river catchmentsinto a unified freshwater data ecosystem.\n\nThe renewed portal builds on the Biodiversity Information Management System (BIMS), originally developed for the South African Freshwater Biodiversity Information System (FBIS). Central to FIPbio is the global Freshwater Animal Diversity Assessment (FADA) taxonomic backbone, continuously curated through the FADAtims platform. This freshwater-specific backbone enables a comprehensive overview of occurrence data mobilised through infrastructures such as GBIF.\n\nSampling sites are spatially linked to global freshwater environmental context layers including river networks, basins, lakes, wetlands and land-water interface classes. Occurrence records are automatically annotated with contextual dataset IDs and snapped to river network segments, enabling reproducible freshwater-specific analytical workflows using resources such as Hydrography90m.\n\nFIPbio enhances the discoverability, interoperability and long-term reuse of freshwater biodiversity and monitoring data from local to global scales. The platform supports freshwater data mobilisation efforts, including those within the FWBON network and contributes to an integrated global freshwater biodiversity information landscape.",
-          "virtual": false,
-          "cancelled": false,
-          "note": "",
-          "sessionCode": "SYM37A",
-          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
-          "room": "SAL A",
-          "day": "Thursday 24 September",
-          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
-        },
-        {
-          "id": "event-249",
-          "title": "Discussion",
-          "start": "3:20 PM",
           "end": "3:30 PM",
-          "speakers": [
-            "Astrid Schmidt-Kloiber"
-          ],
-          "abstract": "",
+          "speakers": [],
+          "abstract": "AI promises much to scientists working with biodiversity data. There has been a recent surge in projects based on LLMs and related technologies: systems that go beyond species identification from images and also identify species traits, agents answering complex ecological questions in natural language based on real data, machine transcription that not only reads handwritten labels but understands them. Such projects, and many more, hope to harness AI in answering some of the most pressing questions in biodiversity research, multiplying the efforts of scientists through more efficient research, larger studies, and novel insights into data.\n\nBut while much is promised, critics might say that little has been delivered. Studies focus on the exciting potential of new models, but often lack performance metrics to prove their abilities. Are the data centres in which our models run destroying the same ecosystems we study? Does public backlash to AI risk losing the trust of citizen scientists whose data is used in training models without attribution or consent? Is AI amplifying our abilities, or are we outsourcing our thinking and neglecting hard-won expert knowledge? How do we reconcile a reliance on closed models and secret training data with our obligations to FAIR and open science?\n\nThis discussion session invites a panel of experts to discuss these topics with our audience, with the aim of co-creating guidelines for effective and ethical use of AI in biodiversity research.",
           "virtual": false,
           "cancelled": false,
           "note": "",
-          "sessionCode": "SYM37A",
-          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
-          "room": "SAL A",
+          "sessionCode": "DS31",
+          "sessionTitle": "Panel Discussion: Critically Assessing the Role of AI in Biodiversity Research",
+          "room": "ODIN",
           "day": "Thursday 24 September",
-          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
+          "track": "AI AND ROBOT READY"
         }
       ]
     },
@@ -4462,7 +4342,7 @@ window.TDWG_2026_PROGRAMME = {
       "day": "Thursday 24 September",
       "start": "2:00 PM",
       "end": "3:30 PM",
-      "room": "SAL B",
+      "room": "SAL A",
       "track": "COLLECTIONS DIGITISATION & MANAGEMENT",
       "items": [
         {
@@ -4479,7 +4359,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM42A",
           "sessionTitle": "Solutions for Research Collection Management Systems Challenges",
-          "room": "SAL B",
+          "room": "SAL A",
           "day": "Thursday 24 September",
           "track": "COLLECTIONS DIGITISATION & MANAGEMENT"
         },
@@ -4497,7 +4377,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM42A",
           "sessionTitle": "Solutions for Research Collection Management Systems Challenges",
-          "room": "SAL B",
+          "room": "SAL A",
           "day": "Thursday 24 September",
           "track": "COLLECTIONS DIGITISATION & MANAGEMENT"
         },
@@ -4515,7 +4395,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM42A",
           "sessionTitle": "Solutions for Research Collection Management Systems Challenges",
-          "room": "SAL B",
+          "room": "SAL A",
           "day": "Thursday 24 September",
           "track": "COLLECTIONS DIGITISATION & MANAGEMENT"
         },
@@ -4533,7 +4413,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM42A",
           "sessionTitle": "Solutions for Research Collection Management Systems Challenges",
-          "room": "SAL B",
+          "room": "SAL A",
           "day": "Thursday 24 September",
           "track": "COLLECTIONS DIGITISATION & MANAGEMENT"
         },
@@ -4551,7 +4431,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM42A",
           "sessionTitle": "Solutions for Research Collection Management Systems Challenges",
-          "room": "SAL B",
+          "room": "SAL A",
           "day": "Thursday 24 September",
           "track": "COLLECTIONS DIGITISATION & MANAGEMENT"
         },
@@ -4569,7 +4449,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM42A",
           "sessionTitle": "Solutions for Research Collection Management Systems Challenges",
-          "room": "SAL B",
+          "room": "SAL A",
           "day": "Thursday 24 September",
           "track": "COLLECTIONS DIGITISATION & MANAGEMENT"
         },
@@ -4587,7 +4467,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM42A",
           "sessionTitle": "Solutions for Research Collection Management Systems Challenges",
-          "room": "SAL B",
+          "room": "SAL A",
           "day": "Thursday 24 September",
           "track": "COLLECTIONS DIGITISATION & MANAGEMENT"
         },
@@ -4605,7 +4485,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM42A",
           "sessionTitle": "Solutions for Research Collection Management Systems Challenges",
-          "room": "SAL B",
+          "room": "SAL A",
           "day": "Thursday 24 September",
           "track": "COLLECTIONS DIGITISATION & MANAGEMENT"
         },
@@ -4623,9 +4503,129 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM42A",
           "sessionTitle": "Solutions for Research Collection Management Systems Challenges",
-          "room": "SAL B",
+          "room": "SAL A",
           "day": "Thursday 24 September",
           "track": "COLLECTIONS DIGITISATION & MANAGEMENT"
+        }
+      ]
+    },
+    {
+      "id": "event-243",
+      "code": "SYM37A",
+      "title": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
+      "day": "Thursday 24 September",
+      "start": "2:00 PM",
+      "end": "3:30 PM",
+      "room": "SAL B",
+      "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS",
+      "items": [
+        {
+          "id": "event-244",
+          "title": "Not just another database: building the future of freshwater taxonomy with FADAtims",
+          "start": "2:00 PM",
+          "end": "2:20 PM",
+          "speakers": [
+            "Astrid Schmidt-Kloiber"
+          ],
+          "abstract": "Freshwater biodiversity is declining rapidly, yet freshwater taxonomy remains fragmented across databases, standards and expert communities. Maintaining reliable species lists is challenging because names change continuously, new taxa are described, and taxonomic concepts differ between regions and organism groups. These issues limit interoperability between biodiversity infrastructures and constrain large-scale ecological assessments and policy applications. To address this gap, we are developing FADAtims, an online taxonomic information management system for collaborative curation of freshwater biodiversity checklists, which is developed within the Belspo-funded infraFADA project. The platform enables registered experts to curate and continuously update species names, synonyms, classification, distribution and status information through a transparent and traceable workflow. FADAtims is designed as a FAIR, interoperable and machine-actionable infrastructure component for freshwater biodiversity data. Built with open-source technologies and aligned with Biodiversity Information Standards, it supports data exchange with major biodiversity infrastructures including GBIF, Catalogue of Life and the Freshwater Information Platform. Interoperability with systems such as WoRMS and TaxonWorks further supports harmonisation and long-term sustainability. The platform aims to provide an authoritative freshwater taxonomic backbone that can be linked to occurrence, trait and monitoring databases as well as conservation assessments. We present the current status of FADAtims, its role within the emerging freshwater biodiversity data ecosystem and discuss community-driven approaches for sustaining curated freshwater taxonomy infrastructures.",
+          "virtual": false,
+          "cancelled": false,
+          "note": "",
+          "sessionCode": "SYM37A",
+          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
+          "room": "SAL B",
+          "day": "Thursday 24 September",
+          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
+        },
+        {
+          "id": "event-245",
+          "title": "Catalogue of Life and Freshwater species data",
+          "start": "2:20 PM",
+          "end": "2:35 PM",
+          "speakers": [
+            "Olaf Banki"
+          ],
+          "abstract": "30 years ago the activities that led to the Catalogue of Life started. For 25 years the catalogue of described organisms of all life, has been freely available online. GBIF, also celebrating a 25 year anniversary, is now making use of the Catalogue of Life as the taxonomic reference for the 3.7 billion species occurrences it mediates. Although a lot of progress has been made, there are still obvious taxonomic gaps. Some groups are notoriously under-represented and incomplete (like insects). In other cases, taxonomic data from specific ecosystem realms like freshwater is scarce. The Catalogue of Life infrastructure, ChecklistBank, now promotes the open data publishing of taxonomic and nomenclatural resources, and different types of species lists (such as policy-relevant lists). The infrastructure also provides the means to share species interaction data. We will provide an overview of the available information in Catalogue of Life and in its infrastructure. We also discuss how this data could be improved, for example through collaboration with initiatives like the Freshwater Animal Diversity Assessment.",
+          "virtual": false,
+          "cancelled": false,
+          "note": "",
+          "sessionCode": "SYM37A",
+          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
+          "room": "SAL B",
+          "day": "Thursday 24 September",
+          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
+        },
+        {
+          "id": "event-246",
+          "title": "A species-level taxonomic catalog of Neotropical freshwater insects: building a consensus reference for occurrence data integration, and conservation planning.",
+          "start": "2:35 PM",
+          "end": "2:50 PM",
+          "speakers": [
+            "Alejandra Correa-Bedoya"
+          ],
+          "abstract": "Freshwaters are among the most biodiverse yet data-deficient habitats globally, and the Neotropical region exemplifies this paradox - exceptional aquatic insect diversity combined with critical taxonomic and distributional gaps rooted in historical undersampling. To our knowledge, no equivalent species-level, multi-order catalog of freshwater insects exists for the Neotropical region. Here we present an ongoing effort to compile a DarwinCore-compliant catalog of freshwater aquatic insects for the Neotropical lowlands, covering seven orders: Trichoptera, Coleoptera, Odonata, Ephemeroptera, Plecoptera, Hemiptera, and Megaloptera. All compiled species names are verified against the GBIF Backbone Taxonomy and the Catalogue of Life, documenting nomenclatural discrepancies including synonyms, combinationes novae, and typographic errors. Country-level distribution data are linked to georeferenced occurrence records from GBIF and regional sources. For each verified species, occurrence records are cleaned and linked to stream network segments, with environmental and topographic variables extracted at the sub-catchment scale. This dataset will underpin distribution modelling across the Magdalena-Cauca Basin in Colombia, assessing how river network structure shapes richness, rarity, and endemism, and prioritising conservation areas accounting for cumulative hydropower impacts on freshwater connectivity.",
+          "virtual": false,
+          "cancelled": false,
+          "note": "",
+          "sessionCode": "SYM37A",
+          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
+          "room": "SAL B",
+          "day": "Thursday 24 September",
+          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
+        },
+        {
+          "id": "event-247",
+          "title": "Biodiversity data at your fingertips: open-access freshwater biodiversity information systems for South Africa and Africa",
+          "start": "2:50 PM",
+          "end": "3:05 PM",
+          "speakers": [
+            "Helen Dallas"
+          ],
+          "abstract": "Freshwater biodiversity data are essential for monitoring ecosystem change, informing conservation, and supporting evidence-based management. However, such data often remain fragmented, inaccessible, or poorly integrated across scales, institutions, and regions. The Freshwater Biodiversity Information System (FBIS) and FBIS-Africa platforms, developed for South Africa and the broader African region respectively, respond directly to this need. FBIS is a powerful, visual, data-rich system designed to host, share, and explore freshwater biodiversity data. Its design and functionality have been shaped by key user groups, including water resource managers, conservation practitioners, planners, researchers, and environmental consultants. Both platforms interoperate with global biodiversity infrastructures, including GBIF and the IUCN Red List of Threatened Species, contributing to a more connected and accessible freshwater biodiversity data ecosystem. By combining regional expertise, open infrastructure, and interoperable data workflows, FBIS and FBIS-Africa demonstrate how community-driven information systems can support FAIR biodiversity data mobilisation and translate knowledge into actionable conservation and management outcomes. The South African platform already supports improved freshwater science, conservation, and decision-making at a national scale, with approximately 14 million occurrence records across eight biodiversity modules. The recently developed FBIS-Africa platform is rapidly expanding in both data coverage and user uptake. Together, these platforms play a critical role in translating freshwater biodiversity data into informed monitoring, management, and conservation action across local, regional, continental, and global scales.",
+          "virtual": true,
+          "cancelled": false,
+          "note": "",
+          "sessionCode": "SYM37A",
+          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
+          "room": "SAL B",
+          "day": "Thursday 24 September",
+          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
+        },
+        {
+          "id": "event-248",
+          "title": "The FIPbio data portal: towards an integrated freshwater biodiversity data ecosystem",
+          "start": "3:05 PM",
+          "end": "3:20 PM",
+          "speakers": [
+            "Vanessa Bremerich"
+          ],
+          "abstract": "Freshwater biodiversity research, monitoring and policy increasingly rely on interoperable data infrastructures linking taxonomy, biodiversity observations, abiotic sampling data and remote sensing products. With the renewal of the freshwater biodiversity data portal FIPbio within the Freshwater Information Platform (FIP), we present a framework integrating freshwater occurrence records, eDNA observations, sampling data and satellite-derived environmental time series, including chlorophyll-a dynamics and land-use change, across lakes, wetlands and river catchmentsinto a unified freshwater data ecosystem.\n\nThe renewed portal builds on the Biodiversity Information Management System (BIMS), originally developed for the South African Freshwater Biodiversity Information System (FBIS). Central to FIPbio is the global Freshwater Animal Diversity Assessment (FADA) taxonomic backbone, continuously curated through the FADAtims platform. This freshwater-specific backbone enables a comprehensive overview of occurrence data mobilised through infrastructures such as GBIF.\n\nSampling sites are spatially linked to global freshwater environmental context layers including river networks, basins, lakes, wetlands and land-water interface classes. Occurrence records are automatically annotated with contextual dataset IDs and snapped to river network segments, enabling reproducible freshwater-specific analytical workflows using resources such as Hydrography90m.\n\nFIPbio enhances the discoverability, interoperability and long-term reuse of freshwater biodiversity and monitoring data from local to global scales. The platform supports freshwater data mobilisation efforts, including those within the FWBON network and contributes to an integrated global freshwater biodiversity information landscape.",
+          "virtual": false,
+          "cancelled": false,
+          "note": "",
+          "sessionCode": "SYM37A",
+          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
+          "room": "SAL B",
+          "day": "Thursday 24 September",
+          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
+        },
+        {
+          "id": "event-249",
+          "title": "Discussion",
+          "start": "3:20 PM",
+          "end": "3:30 PM",
+          "speakers": [
+            "Astrid Schmidt-Kloiber"
+          ],
+          "abstract": "",
+          "virtual": false,
+          "cancelled": false,
+          "note": "",
+          "sessionCode": "SYM37A",
+          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
+          "room": "SAL B",
+          "day": "Thursday 24 September",
+          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
         }
       ]
     },
@@ -4750,41 +4750,13 @@ window.TDWG_2026_PROGRAMME = {
       ]
     },
     {
-      "id": "event-302",
-      "code": "DS49",
-      "title": "What Makes Biodiversity Data “Robot-Ready”? Standards, Infrastructure, and AI",
-      "day": "Thursday 24 September",
-      "start": "4:00 PM",
-      "end": "5:00 PM",
-      "room": "FORUM",
-      "track": "AI AND ROBOT READY",
-      "items": [
-        {
-          "id": "event-302",
-          "title": "DS49 - What Makes Biodiversity Data “Robot-Ready”? Standards, Infrastructure, and AI",
-          "start": "4:00 PM",
-          "end": "5:00 PM",
-          "speakers": [],
-          "abstract": "This discussion session will examine what technical and infrastructural conditions are required for biodiversity data to become “robot-ready” usable by automated systems and AI pipelines without manual intervention. Despite the scale of global biodiversity repositories, many datasets remain difficult for automated systems to interpret because key metadata fields are incomplete, data quality indicators are rarely available, and existing standards lack terminology designed for AI workflows. As a result, researchers and data scientists often spend significant effort preparing data before it can be used in computational pipelines. The session will begin with short invited perspectives from biodiversity data infrastructure providers, standards developers, and AI researchers. These perspectives will highlight gaps in metadata completeness, missing data quality metrics, and the lack of machine-actionable descriptors needed for automated analysis. The discussion will then focus on identifying a community framework for robot-ready biodiversity data, including: 1) essential metadata fields, 2) standardized data quality metrics, 3) terminology for AI and machine-generated annotations, and 4) priorities for extending existing standards. The goal of the session is to identify community priorities and outline a roadmap toward robot-ready biodiversity data standards. Outcomes will inform a collaborative community paper and future standards work within the TDWG community.\n\nDiscussion leaders\n\nHenry L. Bart Professor Emeritus of Ecology and Evolutionary Biology & Curator Emeritus of the Royal D Sutkus Fish Collection Collecion | Tu…\n\nYasin Bakış Sr Manager of Biodiversity Informatics | Tulane University, Biodiversity Research Institute",
-          "virtual": false,
-          "cancelled": false,
-          "note": "",
-          "sessionCode": "DS49",
-          "sessionTitle": "What Makes Biodiversity Data “Robot-Ready”? Standards, Infrastructure, and AI",
-          "room": "FORUM",
-          "day": "Thursday 24 September",
-          "track": "AI AND ROBOT READY"
-        }
-      ]
-    },
-    {
       "id": "event-295",
       "code": "SYM26",
       "title": "From WDSRPD to GeoSchemes: Recording Biodiversity Distributions for Science and Policy",
       "day": "Thursday 24 September",
       "start": "4:00 PM",
       "end": "5:00 PM",
-      "room": "ODIN",
+      "room": "FORUM",
       "track": "DARWIN CORE, STANDARDS DEVELOPMENT & IMPLEMENTATION",
       "items": [
         {
@@ -4801,7 +4773,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM26",
           "sessionTitle": "From WDSRPD to GeoSchemes: Recording Biodiversity Distributions for Science and Policy",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "DARWIN CORE, STANDARDS DEVELOPMENT & IMPLEMENTATION"
         },
@@ -4819,7 +4791,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM26",
           "sessionTitle": "From WDSRPD to GeoSchemes: Recording Biodiversity Distributions for Science and Policy",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "DARWIN CORE, STANDARDS DEVELOPMENT & IMPLEMENTATION"
         },
@@ -4837,7 +4809,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM26",
           "sessionTitle": "From WDSRPD to GeoSchemes: Recording Biodiversity Distributions for Science and Policy",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "DARWIN CORE, STANDARDS DEVELOPMENT & IMPLEMENTATION"
         },
@@ -4855,7 +4827,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM26",
           "sessionTitle": "From WDSRPD to GeoSchemes: Recording Biodiversity Distributions for Science and Policy",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "DARWIN CORE, STANDARDS DEVELOPMENT & IMPLEMENTATION"
         },
@@ -4873,7 +4845,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM26",
           "sessionTitle": "From WDSRPD to GeoSchemes: Recording Biodiversity Distributions for Science and Policy",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "DARWIN CORE, STANDARDS DEVELOPMENT & IMPLEMENTATION"
         },
@@ -4891,93 +4863,37 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM26",
           "sessionTitle": "From WDSRPD to GeoSchemes: Recording Biodiversity Distributions for Science and Policy",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Thursday 24 September",
           "track": "DARWIN CORE, STANDARDS DEVELOPMENT & IMPLEMENTATION"
         }
       ]
     },
     {
-      "id": "event-280",
-      "code": "SYM37B",
-      "title": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
+      "id": "event-302",
+      "code": "DS49",
+      "title": "What Makes Biodiversity Data “Robot-Ready”? Standards, Infrastructure, and AI",
       "day": "Thursday 24 September",
       "start": "4:00 PM",
       "end": "5:00 PM",
-      "room": "SAL A",
-      "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS",
+      "room": "ODIN",
+      "track": "AI AND ROBOT READY",
       "items": [
         {
-          "id": "event-281",
-          "title": "A collaborative perspective on a globally standardised river basin name database",
+          "id": "event-302",
+          "title": "DS49 - What Makes Biodiversity Data “Robot-Ready”? Standards, Infrastructure, and AI",
           "start": "4:00 PM",
-          "end": "4:15 PM",
-          "speakers": [
-            "Daniel Mietchen"
-          ],
-          "abstract": "When categorising and aggregating data across a given landscape, Earth scientists tend to use grids, broad geographic delineations such as continents, or administrative units such as countries, counties or states. However, when the environmental characteristics and energy flows in a given region come into focus, then the drainage basin becomes an appropriate spatial unit. This is because of the topographic structure of the landscape along rivers, streams, lakes and wetlands that are laterally and longitudinally connected. Especially in light of global change, spatially pinpointing and being able to search a certain drainage basin by name - e.g. to analyse the observed and projected changes - represents a task that is important for the study of biodiversity as well as for neighbouring areas such as transnational water management. To date, though, a comprehensive and globally standardised resource of basin names is missing.\n\nIn this contribution, we will outline how such a resource could be developed, maintained and refined collaboratively on the basis of the Wikimedia and OpenStreetMap platforms and their respective communities. The Wikimedia ecosystem comprises of a suite of interconnected open collaborative platforms that already cover multiple facets of both river basins and biodiversity and that are multilingual. Wikidata in particular is a repository of semantic web-compatible general reference information whose entries include river basins, taxa, territorial entities, ecological concepts and scientific publications about any of these. Wikidata and its sister sites are also closely integrated with OpenStreetMap and citizen science efforts, and Wikidata identifiers are widely used in scholarly contexts and frequently mapped to entries in other relevant databases.",
-          "virtual": false,
-          "cancelled": false,
-          "note": "",
-          "sessionCode": "SYM37B",
-          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
-          "room": "SAL A",
-          "day": "Thursday 24 September",
-          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
-        },
-        {
-          "id": "event-282",
-          "title": "From “Lost in Translation” to Fit-for-Purpose Data: Why Ecologists and Conservation Practice Still Need groupings and cF",
-          "start": "4:15 PM",
-          "end": "4:30 PM",
-          "speakers": [
-            "Bernhard Kløw Askedalen"
-          ],
-          "abstract": "This talk highlights mismatches between biodiversity data standards and practical ecological and conservation work in freshwater ecosystems, with a botanical focus. Drawing on NIVA’s experience, we demonstrate why ecologists still need taxonomic groupings such as agg., col., vel., /, sensu lato, and sensu stricto. The talk gives aims to show that honest and effective biodiversity reporting requires standards that allow uncertainty to be expressed-rather than erased.\n\nWe will present graphs illustrating how substantial amounts of monitoring data can effectively be cut out from time series, ascf. and grouping annotations are not supported in GBIF. At the same time, we emphasize that management categories should be applied as downstream filters, not embedded in global biodiversity infrastructures.\n\nFurther, as hybrids and unresolved taxa are common across many organism groups. Mappers are indirectly pushed towards making uncertain species records that are not flagged for uncertainties, due to requirements linked to red listing, Water Framework Directive monitoring, and invasive species mapping. Combined with a lack of verifiability, this creates serious challenges for biologists-both in carrying out their commissioned work and in submitting truthful, high-quality data to GBIF.",
-          "virtual": false,
-          "cancelled": false,
-          "note": "",
-          "sessionCode": "SYM37B",
-          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
-          "room": "SAL A",
-          "day": "Thursday 24 September",
-          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
-        },
-        {
-          "id": "event-283",
-          "title": "How does human impact change species diversity and composition in 50 types of inland water habitats?",
-          "start": "4:30 PM",
-          "end": "4:45 PM",
-          "speakers": [
-            "Anne Lyche Solheim"
-          ],
-          "abstract": "The revision of inland water habitats for the European Nature Information System (EUNIS) is based on the common types used for the EU Water Framework Directive and related habitat types of the Habitats Directive, as well as on more specific habitats of the Habitats Directive. The presentation describes natural biodiversity for major biological groups in 50 inland water habitat types and how these groups change with human impact. Altogether 23 standing water habitat types and 27 running water habitat types are presented in terms of their natural abiotic conditions and their truly aquatic biological communities, including species richness and characteristic, common and dominant taxa of phytoplankton, aquatic vegetation and fish in standing waters, as well as benthic algae, aquatic vegetation, benthic invertebrates and fish in running waters. The data are based on harmonised taxa lists for each major taxonomic group. While habitats in reference condition have distinct biological communities shaped mainly by geology, altitude, and size, impacted habitats converge towards degraded states with fewer characteristic species due to major pressures, such as nutrient pollution, hydromorphological change and water abstraction. With the EU Biodiversity Strategy 2030 and Nature Restoration Regulation, Europe now has a shared scientific framework to support the monitoring of whether restoration actions effectively improve inland water ecosystems. The work is published as a report from the European Topic Centre for Biodiversity and Ecosystems funded by the European Environment Agency (EEA).",
-          "virtual": false,
-          "cancelled": false,
-          "note": "",
-          "sessionCode": "SYM37B",
-          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
-          "room": "SAL A",
-          "day": "Thursday 24 September",
-          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
-        },
-        {
-          "id": "event-284",
-          "title": "Discussion",
-          "start": "4:45 PM",
           "end": "5:00 PM",
-          "speakers": [
-            "Astrid Schmidt-Kloiber"
-          ],
-          "abstract": "",
+          "speakers": [],
+          "abstract": "This discussion session will examine what technical and infrastructural conditions are required for biodiversity data to become “robot-ready” usable by automated systems and AI pipelines without manual intervention. Despite the scale of global biodiversity repositories, many datasets remain difficult for automated systems to interpret because key metadata fields are incomplete, data quality indicators are rarely available, and existing standards lack terminology designed for AI workflows. As a result, researchers and data scientists often spend significant effort preparing data before it can be used in computational pipelines. The session will begin with short invited perspectives from biodiversity data infrastructure providers, standards developers, and AI researchers. These perspectives will highlight gaps in metadata completeness, missing data quality metrics, and the lack of machine-actionable descriptors needed for automated analysis. The discussion will then focus on identifying a community framework for robot-ready biodiversity data, including: 1) essential metadata fields, 2) standardized data quality metrics, 3) terminology for AI and machine-generated annotations, and 4) priorities for extending existing standards. The goal of the session is to identify community priorities and outline a roadmap toward robot-ready biodiversity data standards. Outcomes will inform a collaborative community paper and future standards work within the TDWG community.\n\nDiscussion leaders\n\nHenry L. Bart Professor Emeritus of Ecology and Evolutionary Biology & Curator Emeritus of the Royal D Sutkus Fish Collection Collecion | Tu…\n\nYasin Bakış Sr Manager of Biodiversity Informatics | Tulane University, Biodiversity Research Institute",
           "virtual": false,
           "cancelled": false,
           "note": "",
-          "sessionCode": "SYM37B",
-          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
-          "room": "SAL A",
+          "sessionCode": "DS49",
+          "sessionTitle": "What Makes Biodiversity Data “Robot-Ready”? Standards, Infrastructure, and AI",
+          "room": "ODIN",
           "day": "Thursday 24 September",
-          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
+          "track": "AI AND ROBOT READY"
         }
       ]
     },
@@ -4988,7 +4904,7 @@ window.TDWG_2026_PROGRAMME = {
       "day": "Thursday 24 September",
       "start": "4:00 PM",
       "end": "5:00 PM",
-      "room": "SAL B",
+      "room": "SAL A",
       "track": "COLLECTIONS DIGITISATION & MANAGEMENT",
       "items": [
         {
@@ -5005,7 +4921,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM42B",
           "sessionTitle": "Solutions for Research Collection Management Systems Challenges",
-          "room": "SAL B",
+          "room": "SAL A",
           "day": "Thursday 24 September",
           "track": "COLLECTIONS DIGITISATION & MANAGEMENT"
         },
@@ -5023,7 +4939,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM42B",
           "sessionTitle": "Solutions for Research Collection Management Systems Challenges",
-          "room": "SAL B",
+          "room": "SAL A",
           "day": "Thursday 24 September",
           "track": "COLLECTIONS DIGITISATION & MANAGEMENT"
         },
@@ -5041,7 +4957,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM42B",
           "sessionTitle": "Solutions for Research Collection Management Systems Challenges",
-          "room": "SAL B",
+          "room": "SAL A",
           "day": "Thursday 24 September",
           "track": "COLLECTIONS DIGITISATION & MANAGEMENT"
         },
@@ -5060,9 +4976,93 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "SYM42B",
           "sessionTitle": "Solutions for Research Collection Management Systems Challenges",
-          "room": "SAL B",
+          "room": "SAL A",
           "day": "Thursday 24 September",
           "track": "COLLECTIONS DIGITISATION & MANAGEMENT"
+        }
+      ]
+    },
+    {
+      "id": "event-280",
+      "code": "SYM37B",
+      "title": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
+      "day": "Thursday 24 September",
+      "start": "4:00 PM",
+      "end": "5:00 PM",
+      "room": "SAL B",
+      "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS",
+      "items": [
+        {
+          "id": "event-281",
+          "title": "A collaborative perspective on a globally standardised river basin name database",
+          "start": "4:00 PM",
+          "end": "4:15 PM",
+          "speakers": [
+            "Daniel Mietchen"
+          ],
+          "abstract": "When categorising and aggregating data across a given landscape, Earth scientists tend to use grids, broad geographic delineations such as continents, or administrative units such as countries, counties or states. However, when the environmental characteristics and energy flows in a given region come into focus, then the drainage basin becomes an appropriate spatial unit. This is because of the topographic structure of the landscape along rivers, streams, lakes and wetlands that are laterally and longitudinally connected. Especially in light of global change, spatially pinpointing and being able to search a certain drainage basin by name - e.g. to analyse the observed and projected changes - represents a task that is important for the study of biodiversity as well as for neighbouring areas such as transnational water management. To date, though, a comprehensive and globally standardised resource of basin names is missing.\n\nIn this contribution, we will outline how such a resource could be developed, maintained and refined collaboratively on the basis of the Wikimedia and OpenStreetMap platforms and their respective communities. The Wikimedia ecosystem comprises of a suite of interconnected open collaborative platforms that already cover multiple facets of both river basins and biodiversity and that are multilingual. Wikidata in particular is a repository of semantic web-compatible general reference information whose entries include river basins, taxa, territorial entities, ecological concepts and scientific publications about any of these. Wikidata and its sister sites are also closely integrated with OpenStreetMap and citizen science efforts, and Wikidata identifiers are widely used in scholarly contexts and frequently mapped to entries in other relevant databases.",
+          "virtual": false,
+          "cancelled": false,
+          "note": "",
+          "sessionCode": "SYM37B",
+          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
+          "room": "SAL B",
+          "day": "Thursday 24 September",
+          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
+        },
+        {
+          "id": "event-282",
+          "title": "From “Lost in Translation” to Fit-for-Purpose Data: Why Ecologists and Conservation Practice Still Need groupings and cF",
+          "start": "4:15 PM",
+          "end": "4:30 PM",
+          "speakers": [
+            "Bernhard Kløw Askedalen"
+          ],
+          "abstract": "This talk highlights mismatches between biodiversity data standards and practical ecological and conservation work in freshwater ecosystems, with a botanical focus. Drawing on NIVA’s experience, we demonstrate why ecologists still need taxonomic groupings such as agg., col., vel., /, sensu lato, and sensu stricto. The talk gives aims to show that honest and effective biodiversity reporting requires standards that allow uncertainty to be expressed-rather than erased.\n\nWe will present graphs illustrating how substantial amounts of monitoring data can effectively be cut out from time series, ascf. and grouping annotations are not supported in GBIF. At the same time, we emphasize that management categories should be applied as downstream filters, not embedded in global biodiversity infrastructures.\n\nFurther, as hybrids and unresolved taxa are common across many organism groups. Mappers are indirectly pushed towards making uncertain species records that are not flagged for uncertainties, due to requirements linked to red listing, Water Framework Directive monitoring, and invasive species mapping. Combined with a lack of verifiability, this creates serious challenges for biologists-both in carrying out their commissioned work and in submitting truthful, high-quality data to GBIF.",
+          "virtual": false,
+          "cancelled": false,
+          "note": "",
+          "sessionCode": "SYM37B",
+          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
+          "room": "SAL B",
+          "day": "Thursday 24 September",
+          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
+        },
+        {
+          "id": "event-283",
+          "title": "How does human impact change species diversity and composition in 50 types of inland water habitats?",
+          "start": "4:30 PM",
+          "end": "4:45 PM",
+          "speakers": [
+            "Anne Lyche Solheim"
+          ],
+          "abstract": "The revision of inland water habitats for the European Nature Information System (EUNIS) is based on the common types used for the EU Water Framework Directive and related habitat types of the Habitats Directive, as well as on more specific habitats of the Habitats Directive. The presentation describes natural biodiversity for major biological groups in 50 inland water habitat types and how these groups change with human impact. Altogether 23 standing water habitat types and 27 running water habitat types are presented in terms of their natural abiotic conditions and their truly aquatic biological communities, including species richness and characteristic, common and dominant taxa of phytoplankton, aquatic vegetation and fish in standing waters, as well as benthic algae, aquatic vegetation, benthic invertebrates and fish in running waters. The data are based on harmonised taxa lists for each major taxonomic group. While habitats in reference condition have distinct biological communities shaped mainly by geology, altitude, and size, impacted habitats converge towards degraded states with fewer characteristic species due to major pressures, such as nutrient pollution, hydromorphological change and water abstraction. With the EU Biodiversity Strategy 2030 and Nature Restoration Regulation, Europe now has a shared scientific framework to support the monitoring of whether restoration actions effectively improve inland water ecosystems. The work is published as a report from the European Topic Centre for Biodiversity and Ecosystems funded by the European Environment Agency (EEA).",
+          "virtual": false,
+          "cancelled": false,
+          "note": "",
+          "sessionCode": "SYM37B",
+          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
+          "room": "SAL B",
+          "day": "Thursday 24 September",
+          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
+        },
+        {
+          "id": "event-284",
+          "title": "Discussion",
+          "start": "4:45 PM",
+          "end": "5:00 PM",
+          "speakers": [
+            "Astrid Schmidt-Kloiber"
+          ],
+          "abstract": "",
+          "virtual": false,
+          "cancelled": false,
+          "note": "",
+          "sessionCode": "SYM37B",
+          "sessionTitle": "A consensus taxonomic reference for improved freshwater biodiversity data and knowledge",
+          "room": "SAL B",
+          "day": "Thursday 24 September",
+          "track": "TAXONOMY, CHECKLISTS & STRUCTURED DESCRIPTIONS"
         }
       ]
     },
@@ -5114,7 +5114,7 @@ window.TDWG_2026_PROGRAMME = {
         },
         {
           "id": "event-293",
-          "title": "Role of Large Language Models for Biodiversity Data Discovery, Integration, and Curation: A Case Study of Dehradun Herbarium",
+          "title": "[Skipped talk] Role of Large Language Models for Biodiversity Data Discovery, Integration, and Curation: A Case Study of Dehradun Herbarium",
           "start": "4:30 PM",
           "end": "4:45 PM",
           "speakers": [
@@ -5123,7 +5123,7 @@ window.TDWG_2026_PROGRAMME = {
           "abstract": "The Dehradun Herbarium (DD), housed at the Forest Research Institute (ICFRE), Dehradun, is India's second-largest herbarium, comprising over 330,000 specimens including 1,300 invaluable Type specimens collected since 1890. Despite ongoing digitization efforts since the late 1990s and the launch of the Digital Herbarium Specimen Database (ddherbarium.icfre.gov.in), significant challenges persist in metadata completeness, specimen label transcription, taxonomic data integration, and global discoverability of these biodiversity records. This study presents a case study exploring how Large Language Models (LLMs) can enhance biodiversity data discovery, integration, and curation workflows at the DD Herbarium. We demonstrate LLM applications for: (i) automated extraction and structuring of specimen label data into Darwin Core-compliant fields; (ii) natural language querying of herbarium records to improve researcher accessibility; (iii) AI assisted metadata gap detection and enrichment; and (iv) semantic integration of DD specimen data with global repositories such as GBIF. Results indicate that LLM assisted pipelines substantially improve metadata completeness and reduce manual curation effort, particularly for legacy and handwritten label transcription. We also examine challenges including hallucination, taxonomic bias, provenance tracking, and ensuring reliability of AI generated metadata. Our findings suggest that LLMs, when integrated responsibly with structured biodiversity data standards, offer transformative potential for mobilising underutilised natural history collections and making forestry biodiversity data more discoverable, reusable, and actionable for conservation science.",
           "virtual": true,
           "cancelled": false,
-          "note": "",
+          "note": "This talk was skipped because the recording was not uploaded.",
           "sessionCode": "CO5",
           "sessionTitle": "Digital Tools for Data Discovery, Resolution and Exchange",
           "room": "SAL C",
@@ -5181,43 +5181,13 @@ window.TDWG_2026_PROGRAMME = {
       ]
     },
     {
-      "id": "event-333",
-      "code": "WKS33A",
-      "title": "Liberating and providing AI-ready data from the Natural History Literature",
-      "day": "Friday 25 September",
-      "start": "8:30 AM",
-      "end": "10:00 AM",
-      "room": "FORUM",
-      "track": "BIODIVERSITY LITERATURE & KNOWLEDGE EXTRACTION",
-      "items": [
-        {
-          "id": "event-333",
-          "title": "WKS33A - Liberating and providing AI-ready data from the Natural History Literature",
-          "start": "8:30 AM",
-          "end": "10:00 AM",
-          "speakers": [
-            "Chris Le Coquet"
-          ],
-          "abstract": "Ever since the first attempts to observe, document and describe the natural world-followed by the establishment of the discipline as a scientific field-literature has served as the primary channel for the validation, dissemination and archiving of natural history knowledge, resulting in an ever-growing corpus of 500 million pages. However, this huge amount of information is often inaccessible-lost in the corner of a library or locked in a PDF-and forms what we commonly refer to as \"unknown known knowledge\". To unlock and transform it into FAIR, AI-ready, interlinked objects, the community has produced open source tools for the extraction and annotation of data from scanned or digital-born PDFs based on established standards and persistent identifiers. Meanwhile, the community has also produced XML tools (e.g., JATS, TEI) to address a similar challenge in prospective literature. Over the past decade, this unlocked knowledge has greatly contributed to a rich ecosystem of increasingly interconnected data infrastructures, creating new opportunities for research and bioinformatics communities. This workshop will complement the proposed Libroscope symposium. As a starter, the participants will be introduced to the stakes and methods of literature FAIR-isation with a strong focus on data cleaning and linking. Then, the main course will have the participants explore new opportunities offered by the Libroscope using human interfaces as well as APIs to retrieve liberated AI-ready data.",
-          "virtual": false,
-          "cancelled": false,
-          "note": "",
-          "sessionCode": "WKS33A",
-          "sessionTitle": "Liberating and providing AI-ready data from the Natural History Literature",
-          "room": "FORUM",
-          "day": "Friday 25 September",
-          "track": "BIODIVERSITY LITERATURE & KNOWLEDGE EXTRACTION"
-        }
-      ]
-    },
-    {
       "id": "event-327",
       "code": "CO6",
       "title": "AI Driven Monitoring and Species Identification",
       "day": "Friday 25 September",
       "start": "8:30 AM",
       "end": "10:00 AM",
-      "room": "ODIN",
+      "room": "FORUM",
       "track": "CONTRIBUTED ORALS",
       "items": [
         {
@@ -5234,7 +5204,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "CO6",
           "sessionTitle": "AI Driven Monitoring and Species Identification",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Friday 25 September",
           "track": "CONTRIBUTED ORALS"
         },
@@ -5252,7 +5222,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "CO6",
           "sessionTitle": "AI Driven Monitoring and Species Identification",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Friday 25 September",
           "track": "CONTRIBUTED ORALS"
         },
@@ -5270,7 +5240,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "CO6",
           "sessionTitle": "AI Driven Monitoring and Species Identification",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Friday 25 September",
           "track": "CONTRIBUTED ORALS"
         },
@@ -5288,7 +5258,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "CO6",
           "sessionTitle": "AI Driven Monitoring and Species Identification",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Friday 25 September",
           "track": "CONTRIBUTED ORALS"
         },
@@ -5306,9 +5276,39 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "CO6",
           "sessionTitle": "AI Driven Monitoring and Species Identification",
-          "room": "ODIN",
+          "room": "FORUM",
           "day": "Friday 25 September",
           "track": "CONTRIBUTED ORALS"
+        }
+      ]
+    },
+    {
+      "id": "event-333",
+      "code": "WKS33A",
+      "title": "Liberating and providing AI-ready data from the Natural History Literature",
+      "day": "Friday 25 September",
+      "start": "8:30 AM",
+      "end": "10:00 AM",
+      "room": "ODIN",
+      "track": "BIODIVERSITY LITERATURE & KNOWLEDGE EXTRACTION",
+      "items": [
+        {
+          "id": "event-333",
+          "title": "WKS33A - Liberating and providing AI-ready data from the Natural History Literature",
+          "start": "8:30 AM",
+          "end": "10:00 AM",
+          "speakers": [
+            "Chris Le Coquet"
+          ],
+          "abstract": "Ever since the first attempts to observe, document and describe the natural world-followed by the establishment of the discipline as a scientific field-literature has served as the primary channel for the validation, dissemination and archiving of natural history knowledge, resulting in an ever-growing corpus of 500 million pages. However, this huge amount of information is often inaccessible-lost in the corner of a library or locked in a PDF-and forms what we commonly refer to as \"unknown known knowledge\". To unlock and transform it into FAIR, AI-ready, interlinked objects, the community has produced open source tools for the extraction and annotation of data from scanned or digital-born PDFs based on established standards and persistent identifiers. Meanwhile, the community has also produced XML tools (e.g., JATS, TEI) to address a similar challenge in prospective literature. Over the past decade, this unlocked knowledge has greatly contributed to a rich ecosystem of increasingly interconnected data infrastructures, creating new opportunities for research and bioinformatics communities. This workshop will complement the proposed Libroscope symposium. As a starter, the participants will be introduced to the stakes and methods of literature FAIR-isation with a strong focus on data cleaning and linking. Then, the main course will have the participants explore new opportunities offered by the Libroscope using human interfaces as well as APIs to retrieve liberated AI-ready data.",
+          "virtual": false,
+          "cancelled": false,
+          "note": "",
+          "sessionCode": "WKS33A",
+          "sessionTitle": "Liberating and providing AI-ready data from the Natural History Literature",
+          "room": "ODIN",
+          "day": "Friday 25 September",
+          "track": "BIODIVERSITY LITERATURE & KNOWLEDGE EXTRACTION"
         }
       ]
     },
@@ -5713,7 +5713,7 @@ window.TDWG_2026_PROGRAMME = {
       "day": "Friday 25 September",
       "start": "10:30 AM",
       "end": "12:00 PM",
-      "room": "FORUM",
+      "room": "ODIN",
       "track": "BIODIVERSITY LITERATURE & KNOWLEDGE EXTRACTION",
       "items": [
         {
@@ -5730,7 +5730,7 @@ window.TDWG_2026_PROGRAMME = {
           "note": "",
           "sessionCode": "WKS33B",
           "sessionTitle": "Liberating and providing AI-ready data from the Natural History Literature",
-          "room": "FORUM",
+          "room": "ODIN",
           "day": "Friday 25 September",
           "track": "BIODIVERSITY LITERATURE & KNOWLEDGE EXTRACTION"
         }
